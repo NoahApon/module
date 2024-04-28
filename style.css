@@ -1,0 +1,102 @@
+html{
+ background-color: black;
+}
+
+body{
+    text-align:center;
+    margin:  20px auto;
+    width: 800px;
+    height: 800px;
+    border: aquamarine 4px solid;
+    margin-top: 100px;
+    border-radius: 1000px;
+    background-color:rgb(3, 46, 56);
+}
+
+button{
+    width: 445px;
+    height: 50px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: groove 3px aqua;
+    background-color:darkcyan;
+    color: aqua;
+    border-radius: 7px;
+}
+
+button:active{
+    width: 445px;
+    height: 50px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: groove 3px rgb(100, 19, 138);
+    background-color:rgb(158, 13, 158);
+    color:rgb(255, 28, 236);
+    border-radius: 7px;
+
+}
+
+button:active{
+    animation: vibrate1 0.4s;
+}
+
+@keyframes vibrate1 {
+   0% {
+    transform: rotate(0deg) translateX(0px);
+   }
+   25% {
+    transform: rotate(-10deg) translateX(-10px);
+   }
+   50% {
+    transform: rotate(0deg) translateX(0px);
+   }
+   75% {
+    transform: rotate(10deg) translateX(10px);
+   }
+   100% {
+    transform: rotate(0deg) translateX(0px);
+   }
+}
+
+table{
+    color: aquamarine;
+    margin: 30px auto;
+}
+tr{
+    text-align: center;
+}
+
+input{
+    width: 100px;
+    height: 20px;
+    font-size: medium;
+    border: 2px aquamarine groove;
+    background-color: rgb(10, 146, 146);
+    color: aquamarine;
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+
+p{
+    color: aquamarine;
+    border: 2px aquamarine;
+}
+
+h1{
+    background-color: rgb(10, 146, 146);
+    border-radius: 10px;
+    border: 3px aquamarine;
+    width: 500px;
+    height: 50px;
+    margin: 30px auto;
+    padding-top: 10px;
+    color: aquamarine;
+}
+
+.outputs{
+    border: aquamarine 2px solid;
+    width: 130px;
+    background-color: rgb(10, 146, 146);
+    padding: 5px;
+}
